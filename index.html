@@ -7,6 +7,85 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<header>
+		<a href="https://app.rs.school">
+			<img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="RS school" width="10%">
+		</a>
+		<a href="https://app.rs.school">rsschool-cv</a>
+		<hr>
+		<section id="label">	
 
+					<img src="./avatar.jpg" alt="Avatar">
+					<p><b><em>Andrei Koran (Андрей Корень)</em></b></p>
+
+
+		</section>
+		<ul>
+			<li><b><em>Contacts:</em></b></li>
+			<ul>
+				<li>Discord: Andrei_K#1122</li>
+				<li>E-mail: andrei-ko@tut.by</li>
+				<li>Tel: (+375)-(29)-116-75-97 A1</li>
+			</ul>
+		</ul>
+
+	</header>
+	<hr>
+	<section class="center-text">
+		<blockquote>
+			<h3>About myself:</h3>
+			<p>About myself:
+				I want to learn Front-End Development in RSSchool!</p>
+		  </blockquote>
+	</section>
+	<hr>
+	<section>
+		<ul>
+			<li><b><em>Skills:</em></b></li>
+			<ul>
+				<li>HTML5, CSS3</li>
+				<li>PHP</li>
+				<li>JavaScript (Basics)</li>
+			</ul>
+		</ul>	
+	</section>
+	<hr>
+<section>
+	<h3>Code:</h3>
+	<p><pre>
+		<code>
+			&lt;?php 
+			function Rus_word() {  //Create pseudo Russian words
+				$char_x = array('а','б','в','г','д','е','ё','ж','з','и','й','к','л','м', 
+				'н','о','п','р','с','т','у','ф','х','ц','ч','ш','щ','ъ','ы','ь','э','ю','я');
+				$str='';
+				$len=mt_rand(1, 12); //generate the length of the word
+				for ($i=0; $i < $len; $i++){ 
+					$x=mt_rand(0, 32);
+					$str="$str"."$char_x[$x]";
+					}
+				return  $str;
+				}
+			?&gt;
+		</code> 	
+	</pre></p>
+</section>
+<hr>
+<section>
+	<ul>
+		<li><b><em>Language:</em></b></li>
+		<ul>
+			<li>Russian</li>
+			<li>Belorussian</li>
+			<li>English with a dictionary ;)</li>
+		</ul>
+	</ul>	
+</section>
+<hr>
+<footer class="center-text">
+	<p>
+		&copy;2023
+	</p>
+</footer>
 </body>
 </html>
