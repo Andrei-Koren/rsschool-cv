@@ -15,3 +15,9 @@
 _I want to learn Front-End Development in RSSchool!_ 
 
 ***
+### Skills
+  + HTML5, CSS3
+  + PHP
+  + JavaScript (Basics)
+  + Electronics hobbyist
+---
