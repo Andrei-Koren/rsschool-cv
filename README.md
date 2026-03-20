@@ -1,2 +1,1 @@
-# rsschool-cv
-My CV
+https://Andrei-Koren.github.io/rsschool-cv/cv
