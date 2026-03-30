@@ -11,7 +11,7 @@ body {
     margin: 30px auto;
     background: #fff;
     padding: 40px;
-    box-shadow: 0px 0px 50px rgba(104, 105, 90, 0.938);
+    box-shadow: 0px 0px 50px rgba(73, 190, 69, 0.938);
     border-radius: 12px;
 }
 
@@ -20,6 +20,10 @@ section {
     padding-bottom: 20px;
     margin-bottom: 20px;
     margin-bottom: 25px;
+}
+
+header {
+    text-align: center;
 }
 
 
@@ -76,6 +80,5 @@ footer ul {
 footer ul li a {
   display: block;           /* Делает всю область ссылки кликабельной */
   padding: 15px 20px;       /* Внутренние отступы */
-  text-decoration: none;    /* Убирает подчеркивание */
   transition: 0.3s;         /* Плавность при наведении */
 }
