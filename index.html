@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1></h1>
+        <h1>Andrei K. (Андрей К.А.)</h1>
         <nav>
             <ul>
                 <li><a href="#"></a></li>
@@ -17,8 +17,66 @@
 
     <main>
         <section>
-            <h2> </h2>
-            <p> </p>
+            <h2>Contact:</h2>
+            <p>
+                <ul>
+                    <li>Discord: Andrei…..</li>
+                    <li>E-mail: mail@test.by</li>
+                    <li>Tel: (+375)-(29)-xxx-xx-xx A1</li>
+                </ul>
+            </p>
+        </section>
+
+        <section>
+            <h2>About myself:</h2>
+            <p>I want to learn Front-End Development in RSSchool!</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <p>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>PHP</li>
+                    <li>JavaScript (Basics)</li>
+                    <li>Electronics hobbyist</li>
+                </ul>
+            </p>
+        </section>
+
+        <section>
+            <h2>Code PHP:</h2>
+            <p>
+                <pre>
+                    <code>
+                        &lt;?php 
+                            function Rus_word() {  //create pseudo russian words
+                                $char_x = array('а','б','в','г','д','е','ё','ж','з','и','й','к','л','м', 
+                                'н','о','п','р','с','т','у','ф','х','ц','ч','ш','щ','ъ','ы','ь','э','ю','я');
+                                $str='';
+                                $len=mt_rand(1, 12); //generate the length of the word
+                                for ($i=0; $i &lt; $len; $i++){ 
+                                    $x=mt_rand(0, 32);
+                                    $str="$str"."$char_x[$x]";
+                                    }
+                                return  $str;
+                             }
+                        ?&gt;
+                    </code>
+
+                </pre>  
+            </p>
+        </section>
+
+        <section>
+            <h2>Language:</h2>
+            <p>
+                <ul>
+                    <li>Russian</li>
+                    <li>Belorussian</li>
+                    <li>English with a dictionary &#128512;</li>
+                </ul>
+            </p>
         </section>
     </main>
 
