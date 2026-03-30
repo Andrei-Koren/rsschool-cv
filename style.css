@@ -15,11 +15,15 @@ body {
     border-radius: 12px;
 }
 
-header {
-    text-align: center;
+section {
     border-bottom: 2px solid #3498db;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+header {
+
 }
 
 nav ul {
@@ -28,7 +32,7 @@ nav ul {
   list-style: none;   /* Убирает маркеры (точки) списка */
   padding: 0;
   margin: 0;
-  background-color: #0bcde7;   /* Цвет фона меню */
+  background-color: #3498db;   /* Цвет фона меню */
 }
 
 nav ul li a {
@@ -44,9 +48,17 @@ a:hover {
 }
 
 .avatar img {
+    margin: 2%;
   width: 40%;
   height: 40%;
     box-shadow: 0px 0px 50px rgba(220, 234, 25, 0.938);
     border-radius: 50%;
 }
 
+h2 {
+    color: #3498db;
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
