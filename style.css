@@ -22,9 +22,6 @@ section {
     margin-bottom: 25px;
 }
 
-header {
-
-}
 
 nav ul {
   display: flex;   /* Выстраивает элементы в линию */
@@ -61,4 +58,24 @@ h2 {
     padding-left: 10px;
     font-size: 1.4em;
     margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     list-style: none;   /* Убирает маркеры (точки) списка */
+}
+
+
+footer ul li a {
+  display: block;           /* Делает всю область ссылки кликабельной */
+  padding: 15px 20px;       /* Внутренние отступы */
+  text-decoration: none;    /* Убирает подчеркивание */
+  transition: 0.3s;         /* Плавность при наведении */
 }

@@ -59,19 +59,19 @@
                     <p>
                         <pre>
                             <code>
-                                &lt;?php 
-                                    function Rus_word() {  //create pseudo russian words
-                                        $char_x = array('а','б','в','г','д','е','ё','ж','з','и','й','к','л','м', 
-                                        'н','о','п','р','с','т','у','ф','х','ц','ч','ш','щ','ъ','ы','ь','э','ю','я');
-                                        $str='';
-                                        $len=mt_rand(1, 12); //generate the length of the word
-                                        for ($i=0; $i &lt; $len; $i++){ 
-                                            $x=mt_rand(0, 32);
-                                            $str="$str"."$char_x[$x]";
-                                            }
-                                        return  $str;
-                                    }
-                                ?&gt;
+                    &lt;?php 
+                        function Rus_word() {  //create pseudo russian words
+                            $char_x = array('а','б','в','г','д','е','ё','ж','з','и','й','к','л','м', 
+                            'н','о','п','р','с','т','у','ф','х','ц','ч','ш','щ','ъ','ы','ь','э','ю','я');
+                            $str='';
+                            $len=mt_rand(1, 12); //generate the length of the word
+                            for ($i=0; $i &lt; $len; $i++){ 
+                                $x=mt_rand(0, 32);
+                                $str="$str"."$char_x[$x]";
+                                }
+                            return  $str;
+                        }
+                    ?&gt;
                             </code>
 
                         </pre>  
@@ -91,8 +91,15 @@
             </main>
 
             <footer id="footer">
-                
-                <p>&copy; 2026 <a href="https://github.com/Andrei-Koren" >My Git</a> <a href="https://rs.school/courses/javascript-preschool-ru"><img src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg" alt="Log RS"></a> </p>
+                <ul>
+                    <li>&copy;</li>
+                    <li>2026</li>
+                    <li><a href="https://github.com/Andrei-Koren" >My Git</a></li>
+                    <li><a href="https://rs.school/courses/javascript-preschool-ru">
+                            <img src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg" alt="Log RS" width="50">
+                        </a>
+                    </li>
+                </ul>
             </footer>
     </div>
     
