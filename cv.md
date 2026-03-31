@@ -1,0 +1,48 @@
+## [rsschool-cv](https://app.rs.school)
+***
+# Andrei K. (Андрей К.А.)
+
+---
+### [Contacts:](#)
+  * Discord: Andrei.....
+  * E-mail: mail@test.by
+  * Tel: (+375)-(29)-xxx-xx-xx A1
+
+***
+***
+***
+#### _About myself:_
+_I want to learn Front-End Development in RSSchool!_ 
+
+***
+### Skills
+  + HTML5, CSS3
+  + PHP
+  + JavaScript (Basics)
+  + Electronics hobbyist
+---
+###  Code PHP:
+ 
+        <?php 
+        function Rus_word() {  //create pseudo russian words
+            $char_x = array('а','б','в','г','д','е','ё','ж','з','и','й','к','л','м', 
+            'н','о','п','р','с','т','у','ф','х','ц','ч','ш','щ','ъ','ы','ь','э','ю','я');
+            $str='';
+            $len=mt_rand(1, 12); //generate the length of the word
+            for ($i=0; $i < $len; $i++){ 
+                $x=mt_rand(0, 32);
+                $str="$str"."$char_x[$x]";
+                }
+            return  $str;
+            }
+        ?>
+
+---
+---
+#### Language:
+- Russian
+- Belorussian
+- English with a dictionary *;)* 
+---
+# 2026
+---

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My CV</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+                <nav>
+                    <ul>
+                        <li><a href="#Contact">Contact</a></li>
+                        <li><a href="#About">About ..</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                        <li><a href="#Code">My code</a></li>
+                        <li><a href="#Language">Language</a></li>
+                        <li><a href="#footer">Footer</a></li>
+                    </ul>
+                </nav>
+                <div class="avatar">
+                    <img src="my_avatar.jpg" alt="My avatar">
+                </div>                
+                <h1>Andrei K. (Андрей К.А.)</h1>
+            </header>
+
+            <main>
+                <section id="Contact">
+                    <h2>Contact:</h2>
+                        <ul>
+                            <li>Discord: Andrei_K(@Andrei-Koren)</li>
+                            <li>Mail: <a href="mailto:mail@htmlacademy.ru">koren.and@yandex.by</a></li>
+                            <li>Tel: <a href="tel:1234567" >(+375)-(29)-xxx-xx-xx</a> A1</li>
+                        </ul>
+                </section>
+
+                <section id="About">
+                    <h2>About myself:</h2>
+                    <p>I want to learn Front-End Development in RSSchool!</p>
+                </section>
+
+                <section id="Skills">
+                    <h2>Skills</h2>
+                        <ul>
+                            <li>HTML5, CSS3</li>
+                            <li>PHP</li>
+                            <li>JavaScript (Basics)</li>
+                            <li>Electronics hobbyist</li>
+                        </ul>
+                </section>
+
+                <section id="Code">
+                    <h2>Code PHP:</h2>
+                        <pre>
+                            <code>
+        &lt;?php 
+            function Rus_word() {  //create pseudo russian words
+                $char_x = array('а','б','в','г','д','е','ё','ж','з','и','й','к','л','м', 
+                'н','о','п','р','с','т','у','ф','х','ц','ч','ш','щ','ъ','ы','ь','э','ю','я');
+                $str='';
+                $len=mt_rand(1, 12); //generate the length of the word
+                for ($i=0; $i &lt; $len; $i++){ 
+                    $x=mt_rand(0, 32);
+                    $str="$str"."$char_x[$x]";
+                    }
+                return  $str;
+            }
+        ?&gt;
+                            </code>
+
+                        </pre>  
+                </section>
+
+                <section id="Language">
+                    <h2>Language:</h2>
+                        <ul>
+                            <li>Russian</li>
+                            <li>Belorussian</li>
+                            <li>English with a dictionary &#128512;</li>
+                        </ul>
+                </section>
+            </main>
+
+            <footer id="footer">
+                <ul>
+                    <li>&copy;</li>
+                    <li>2026</li>
+                    <li><a href="https://github.com/Andrei-Koren" >My Git</a></li>
+                    <li><a href="https://rs.school/courses/javascript-preschool-ru">
+                            <img src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg" alt="Log RS" width="50">
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+    </div>
+    
+</body>
+</html>
