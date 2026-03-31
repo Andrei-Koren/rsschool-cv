@@ -30,7 +30,7 @@ header {
 
 nav ul {
   display: flex;   /* Выстраивает элементы в линию */
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;   /* Убирает маркеры (точки) списка */
   padding: 0;
   margin: 0;
@@ -47,6 +47,10 @@ nav ul li a {
 
 a:hover {
   background-color: #555;   /* Эффект при наведении */
+}
+
+#Contact a:hover, #footer a:hover{
+  background-color: #92d59b;   /* Эффект при наведении */
 }
 
 .avatar img {
@@ -80,10 +84,12 @@ footer ul {
 
 footer ul li a {
   display: block;           /* Делает всю область ссылки кликабельной */
+  border-radius: 50%;
   padding: 15px 20px;       /* Внутренние отступы */
   transition: 0.3s;         /* Плавность при наведении */
 }
 
 pre {
   background-color: #c4eef1;   /* Цвет фона */
+  border-radius: 15px;
 }
