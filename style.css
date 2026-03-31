@@ -49,6 +49,10 @@ a:hover {
   background-color: #555;   /* Эффект при наведении */
 }
 
+#Contact a:hover, #footer a:hover{
+  background-color: #92d59b;   /* Эффект при наведении */
+}
+
 .avatar img {
     margin: 2%;
   width: 40%;
@@ -86,4 +90,5 @@ footer ul li a {
 
 pre {
   background-color: #c4eef1;   /* Цвет фона */
+  border-radius: 15px;
 }
