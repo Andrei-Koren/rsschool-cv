@@ -30,8 +30,7 @@ header {
 
 nav ul {
   display: flex;   /* Выстраивает элементы в линию */
-  justify-content: space-evenly;
-  //justify-content: space-between;
+  justify-content: center;
   list-style: none;   /* Убирает маркеры (точки) списка */
   padding: 0;
   margin: 0;
