@@ -4,6 +4,7 @@ body {
         margin: 0;
         padding: 0;
         color: #333;
+        background-color: #dde2e397;   /* Цвет фона меню */
     }
 
 .container {
@@ -81,4 +82,8 @@ footer ul li a {
   display: block;           /* Делает всю область ссылки кликабельной */
   padding: 15px 20px;       /* Внутренние отступы */
   transition: 0.3s;         /* Плавность при наведении */
+}
+
+pre {
+  background-color: #c4eef1;   /* Цвет фона */
 }
